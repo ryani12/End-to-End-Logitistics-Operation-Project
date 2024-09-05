@@ -13,7 +13,9 @@ This project showcases an end-to-end data engineering and analytics pipeline, st
 
 ## Architecture Diagram
 
-(Add an image or diagram that illustrates the flow of data across these components.)
+![image](https://github.com/user-attachments/assets/4d22e7e6-5cd1-4ee5-8fc7-77fe5e5a1857)
+
+
 
 ## Project Workflow
 
