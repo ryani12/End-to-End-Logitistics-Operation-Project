@@ -13,8 +13,7 @@ This project showcases an end-to-end data engineering and analytics pipeline, st
 
 ## Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/4d22e7e6-5cd1-4ee5-8fc7-77fe5e5a1857)
-
+![image](https://github.com/user-attachments/assets/79c8816e-bebb-41e3-b6bb-e8b8a8f3a002)
 
 
 ## Project Workflow
