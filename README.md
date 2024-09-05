@@ -22,13 +22,13 @@ The raw data is stored and version-controlled in GitHub.
 
 ### 2. Azure Data Factory
 - Pipelines are used to move data from GitHub to Azure Data Lake Gen 2.
-![image](https://github.com/user-attachments/assets/fcc1ec84-09a1-4244-89a3-a851354eb6ec)
+- ![image](https://github.com/user-attachments/assets/fcc1ec84-09a1-4244-89a3-a851354eb6ec)
 
 
 ### 3. Azure Data Lake Gen 2
 - Data is stored in raw and transformed layers in ADLS Gen 2.
 - Example folder structure:
-![image](https://github.com/user-attachments/assets/13d4dbba-34e6-4b95-8e54-0c23d7949fa0)
+- ![image](https://github.com/user-attachments/assets/13d4dbba-34e6-4b95-8e54-0c23d7949fa0)
 
 
 ### 4. Databricks
@@ -47,7 +47,7 @@ The raw data is stored and version-controlled in GitHub.
 ### 6. Power BI
 - The final data is visualized in a Power BI dashboard, which connects to the Synapse views.
 - The data is also modelled:
-![image](https://github.com/user-attachments/assets/25ccd708-3538-4717-a96f-19a838f34698)
+- ![image](https://github.com/user-attachments/assets/25ccd708-3538-4717-a96f-19a838f34698)
 
 - The dashboard visualizes:
 - Key Performance Indicators (KPIs)
