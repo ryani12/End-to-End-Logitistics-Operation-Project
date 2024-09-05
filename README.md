@@ -4,7 +4,7 @@
 
 This project showcases an end-to-end data engineering and analytics pipeline, starting from data ingestion to visualization. The pipeline covers the following stages:
 
-1. **Data Source**: The raw data is stored in GitHub (or another source).
+1. **Data Source**: The raw data is stored in GitHub.
 2. **Azure Data Factory**: Used for orchestrating data ingestion and movement to the data lake.
 3. **Azure Data Lake Gen 2**: Stores raw and transformed data.
 4. **Databricks**: Transforms the raw data using Spark jobs.
@@ -12,32 +12,33 @@ This project showcases an end-to-end data engineering and analytics pipeline, st
 6. **Power BI**: Interactive dashboard visualizing key insights from the data.
 
 ## Architecture Diagram
-
 ![image](https://github.com/user-attachments/assets/79c8816e-bebb-41e3-b6bb-e8b8a8f3a002)
 
 
 ## Project Workflow
 
 ### 1. Data Source
-The raw data is stored and version-controlled in GitHub. (Provide a link to the data or sample data.)
+The raw data is stored and version-controlled in GitHub.
 
 ### 2. Azure Data Factory
 - Pipelines are used to move data from GitHub to Azure Data Lake Gen 2.
-- (Include the pipeline JSON or ARM template files under `/azure-data-factory`)
+- ![image](https://github.com/user-attachments/assets/f79a8254-f916-4adf-b4de-5f52b543c081)
+
 
 ### 3. Azure Data Lake Gen 2
 - Data is stored in raw and transformed layers in ADLS Gen 2.
 - Example folder structure:
-- /raw /transformed
+- ![image](https://github.com/user-attachments/assets/13d4dbba-34e6-4b95-8e54-0c23d7949fa0)
 
 
 ### 4. Databricks
 - Data is transformed using Spark jobs in Databricks.
-- Notebooks used for transformation are included under `/databricks`.
+- Notebook used for transformation are included under `/databricks`.
 - Example Databricks process:
 - Load raw data from ADLS Gen 2.
 - Apply transformations (data cleaning, aggregations).
 - Write transformed data back to ADLS Gen 2.
+
 
 ### 5. Azure Synapse
 - Data is further aggregated in Synapse for reporting.
@@ -45,19 +46,14 @@ The raw data is stored and version-controlled in GitHub. (Provide a link to the 
 
 ### 6. Power BI
 - The final data is visualized in a Power BI dashboard, which connects to the Synapse views.
+- The data is also modelled:
+- ![image](https://github.com/user-attachments/assets/25ccd708-3538-4717-a96f-19a838f34698)
+
 - The dashboard visualizes:
 - Key Performance Indicators (KPIs)
 - Trends over time
 - Detailed insights into operations
-- Screenshots or a link to the Power BI dashboard are provided under `/power-bi`.
-
-## Project Files
-
-- **/data-source**: Contains the original data or a sample.
-- **/azure-data-factory**: ADF pipelines in JSON or ARM template format.
-- **/databricks**: Notebooks used in Databricks for data transformations.
-- **/azure-synapse**: SQL scripts for aggregations and creating views.
-- **/power-bi**: Screenshots or published links to the Power BI dashboard.
+- Screenshots and to the Power BI dashboard and the .pbix file are provided under `/power-bi`.
 
 ## How to Use This Project
 
